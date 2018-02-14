@@ -9,6 +9,10 @@ def list_multiply ():
 
 list_multiply()
 
+#or use below, where end="" in the print() function means to print on the same line.
+for i in range(3,-1,-1):
+    print(i,end="")
+
 def list_multiply2 ():
     numlist2 = [1000,100,10]
     numrange2 = [n for n in range (8,0,-2)]
@@ -16,6 +20,10 @@ def list_multiply2 ():
     print ("\nHere is the answer for Python 46 of 68, Drill #3: ",num_Total2)
 
 list_multiply2()
+
+#or use below, where end="" in the print() function means to print on the same line.
+for i in range(8,0,-2):
+    print(i,end="")
 
 
 
